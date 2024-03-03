@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #222426; /* Apply the background color to the whole page */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #336699;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+h2 {
+    position: absolute; /* Change to absolute if you want to position relative to the nearest positioned ancestor */
+    left: 50%;
+    top: 50%; /* Changed from bottom to top for standard centering */
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+h1 {
+    background-color: #336699;
+    color: #ffffff;
+}
